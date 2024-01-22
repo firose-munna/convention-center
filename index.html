@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abacus Convention Center</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    
+
+   
+
+    <div class="container">
+
+        <nav class="navbar navbar-light navbar-expand-lg bg-white m-3">
+            <div>
+                <a class="navbar-brand" href="index.html">Abacus Convention Center</a>
+            </div>
+            
+            <button class="navbar-toggler border-0" type="button" data-bs-toggler="collapse"  data-bs-target="#navbar-support-content" aria-controls="navbar-support-content" aria-expanded="false" aria-label="Toggle Navigation"> <i class="bi bi-list"></i></button>
+    
+            <div class="collapse navbar-collapse"  id="navbar-support-content">
+                
+                    <ul class="navbar-nav ms-auto mb-lg-0 ">
+                        <li class="nav-item">
+                            <a aria-current="page" href="#" class="nav-link">Home</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About Us</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+
+                        
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Subscribe</a>
+                        </li>
+                        
+                    </ul> 
+            </div>
+       </nav>
+    </div>
+
+    <section id="home-slider">
+        <div class="row justify-content-center m-0">
+            <div class="col-md">
+                <div id="slides-with-control" class="carousel slide" data-bs-ride ="carousel">
+
+                    <div class="carousel-indicators">
+                        <button type="button" 
+                            class="active"
+                            data-bs-target="#slides-with-control"
+                            data-bs-slide-to="0"
+                            aria-current="true"
+                            aria-label="Slide 1">
+
+                        </button>
+
+                        <button type="button" 
+                            class="active"
+                            data-bs-target="#slides-with-control"
+                            data-bs-slide-to="1"
+                            aria-current="true"
+                            aria-label="Slide 2">
+
+                        </button>
+                        <button type="button" 
+                            class="active"
+                            data-bs-target="#slides-with-control"
+                            data-bs-slide-to="2"
+                            aria-current="true"
+                            aria-label="Slide 3">
+
+                        </button>
+                        <button type="button" 
+                            class="active"
+                            data-bs-target="#slides-with-control"
+                            data-bs-slide-to="3"
+                            aria-current="true"
+                            aria-label="Slide 4">
+
+                        </button>
+                    </div>
+
+                    
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active overlay">
+                            <img class="d-block" src="/img/w-img1.jpg" alt="image1">
+
+                            <div class="carousel-caption text-center caption-content mx-auto mb-5" >
+                                <h2>The perfect venue for your</h2>
+                                <h2>next event</h2>
+                                
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua<br>dolor do amet sint. Velit officia consequat duis enim velit</p>
+                              
+
+                                <button class="btn btn-light text-primary" type="button">Book Now</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item overlay">
+                            <img class="d-block" src="/img/w-img2.jpg" alt="image2">
+                            <div class="carousel-caption text-center caption-content mx-auto mb-5" >
+                                <h2>The perfect venue for your</h2>
+                                <h2>next event</h2>
+                                
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua<br>dolor do amet sint. Velit officia consequat duis enim velit</p>
+
+                                <button class="btn btn-light text-primary" type="button">Book Now</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item overlay">
+                            <img class="d-block" src="./img/w-img3.jpg" alt="image3">
+                            <div class="carousel-caption text-center caption-content mx-auto mb-5" >
+                                <h2>The perfect venue for your</h2>
+                                <h2>next event</h2>
+                                
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua<br>dolor do amet sint. Velit officia consequat duis enim velit</p>
+
+                                <button class="btn btn-light text-primary" type="button">Book Now</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item overlay">
+                            <img class="d-block" src="./img/w-img4.jpg" alt="image4">
+                            <div class="carousel-caption text-center caption-content mx-auto mb-5" >
+                                <h2>The perfect venue for your</h2>
+                                <h2>next event</h2>
+                                
+                                <p >Amet minim mollit non deserunt ullamco est sit aliqua<br>dolor do amet sint. Velit officia consequat duis enim velit</p>
+
+                                <button class="btn btn-light text-primary" type="button">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="button"
+                        class="carousel-control-prev"
+                        data-bs-target="#slides-with-control"
+                        data-bs-slide="prev">
+
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+
+                    </button>
+
+                    <button type="button"
+                        class="carousel-control-next"
+                        data-bs-target="#slides-with-control"
+                        data-bs-slide="next">
+
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+
+                    </button>
+
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="info-section">
+
+        <div class="container-fluid">
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6">
+                    <div class="info-image">
+                        <img class ="rounded-2" src="./img/info-image.jpg" alt="info-image">
+                    </div>
+                </div>
+                <div class="col-md-5 my-auto">
+                    <h2 class="text-black">Every moment is Precious</h2>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <button type="button" class="btn btn-primary">Explore our album <i class="bi bi-arrow-right-short"></i></button>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <section id="package-info">
+
+        <div class="container">
+
+            <div class="container-fluid">
+                <div class="row justify-content-center mt-5 p-3">
+                    <h2 class="text-center mb-4">Our package</h2>
+                    <div class="card col-md-3">
+                        <div class="card-body">
+    
+                            <div class="card-title">
+                                <h3>$300</h3>
+                                <h5>Business fair</h5>
+                                <p>For most businesses event <br>like book fair, craft fair.</p>
+                            </div>
+    
+                            <div class="card-text">
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> limited space access</p>
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> Secuirty facility</p>
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> event support</p>
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> Decoration design</p>
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> Per day bill</p>
+                            </div>
+                            
+                            <a href="#" class="btn btn-primary">Choose plan</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-3 my-auto">
+                        <div class="card-body">
+    
+                            <div class="card-title">
+                                <h3>$500</h3>
+                                <h5>wedding basic</h5>
+                                <p>For weddings with basic plan <br>
+                                    and limited item</p>
+                            </div>
+    
+                            <div class="card-text">
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> Full space access</p>
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> Food arrangement</p>
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> mangement support</p>
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> Decoration design</p>
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> Billed as shift</p>
+                            </div>
+                            
+                            <a href="#" class="btn btn-primary">Choose plan</a>
+                        </div>
+                    </div>
+    
+                    <div class="card col-md-3 my-auto">
+                        <div class="card-body">
+    
+                            <div class="card-title">
+                                <h3>$800</h3>
+                                <h5>Wedding plus</h5>
+                                <p>For most weddings with <br> premium plans</p>
+                            </div>
+    
+                            <div class="card-text">
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> Full space access</p>
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> Dedicated team</p>
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> Buffet food</p>
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> premium Decoration</p>
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> pay as plan</p>
+                            </div>
+                            
+                            <a href="#" class="btn btn-primary">Choose plan</a>
+                        </div>
+                    </div>
+    
+                    <div class="card col-md-3 my-auto">
+                        <div class="card-body">
+    
+                            <div class="card-title">
+                                <h3>$1200</h3>
+                                <h5>Corporate event</h5>
+                                <p>For most corporate business <br>
+                                    events</p>
+                            </div>
+    
+                            <div class="card-text">
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> Full space access</p>
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> Dedicated team</p>
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> Buffet food</p>
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> premium Decoration</p>
+                                <p><span class="text-info"><i class="bi bi-check-circle-fill"></i></span> pay as plan</p>
+                            </div>
+                            
+                            <a href="#" class="btn btn-primary">Choose plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    
+
+    <section>
+        <div class="container">
+
+            <h2 class="text-center my-5">Happy Clients says</h2>
+            <div class="row gy-4 gy-md-0 gx-xxl-5">
+                <div class="col-12 col-md-4">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-4 p-xxl-5">
+                        <figure>
+                            
+                            <figcaption class="text-center">
+                                
+                                <blockquote class="bsb-blockquote-icon mb-4 px-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</blockquote>
+                                <img class="img-fluid rounded rounded-circle mb-4" src="./img/person1.jpg" alt="">
+                                <h4 class="mb-2">Regina Miles</h4>
+                                <h5 class="fs-6 text-secondary mb-0">Banker</h5>
+                            </figcaption>
+                        </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-4 p-xxl-5">
+                        <figure>
+                            
+                            <figcaption class="text-center">
+                             
+                                <blockquote class="bsb-blockquote-icon mb-4 px-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</blockquote>
+                                <img class="img-fluid rounded rounded-circle mb-4" src="./img/person2.jpg" alt="">
+                                <h4 class="mb-2">Jone Drake</h4>
+                                <h5 class="fs-6 text-secondary mb-0">Banker</h5>
+                            </figcaption>
+                        </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-4 p-xxl-5">
+                        <figure>
+                            
+                            <figcaption class="text-center">
+                        
+                                <blockquote class="bsb-blockquote-icon mb-4 px-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</blockquote>
+                                <img class="img-fluid rounded rounded-circle mb-4" src="./img/person3.jpg" alt="">
+                                <h4 class="mb-2">Cret Yater</h4>
+                                <h5 class="fs-6 text-secondary mb-0">Banker</h5>
+                            </figcaption>
+                        </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="container mb-5" id="question-section">
+
+        <div class="container-fluid">
+
+            <div class="row justify-content-center mt-5">
+                <h2 class="text-center my-5">Frequently Asked Questions</h2>
+
+                <div class="col-md-6 my-auto">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What’s the difference between event design and event planning? 
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    What’s the same things of event design and event planning? 
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    What is your refund and cancellation policy?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                    How do you keep budgets on track?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="col-md-6">
+                    <div class="info-image">
+                        <img class ="rounded-2" src="./img/info-image.jpg" alt="info-image">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+
+    <footer class="text-bg-dark " id="footer-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    
+                    <p class="text-white ">
+                        &copy; 2020 bike. All rights reserved
+                    </p>
+                </div>
+                
+                <div class="col-md-6 ms-auto">
+                    <h6>Get the App</h6>
+                    <p>
+                        <a href="#"><img class="rounded-1" src="./img/store.png" alt=""></a>
+                    </p>
+                    <p>
+                        <a href="#"><img class="rounded-1" src="./img/play.png" alt=""></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+     
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
