@@ -222,7 +222,7 @@ figure img{
 
 @media(max-width: 600px) {
     /* Navbar */
-    .navbar-brand span{
+    .navbar-brand .logo{
         font-weight: 700;
         font-size: 14px;;
     }
@@ -289,7 +289,7 @@ figure img{
     }
 
     .explore-btn{
-        margin-top: 60%;
+        margin-top: 70%;
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
